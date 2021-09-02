@@ -1,0 +1,22 @@
+{
+  "name": "@congruent-labs/device-bridge-types",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc \"./src/**/*.ts\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Congruent Labs Pty Ltd",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
